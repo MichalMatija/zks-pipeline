@@ -17,5 +17,5 @@ jobs:
         run: mvn -B --file petclinic/pom.xml package
       - name: Run Perclinic
         run: nohup java -jar petclinic/target/petclinic-2.2.2.BUILD-SNAPSHOT.jar &
-      - name: Run the selenium tests
-        run: mvn -Dtest=PetclinicTest --file petclinic-selenium/pom.xml -Dbrowser=chrome -Dheadless=true test
+#      - name: Run the selenium tests
+ #       run: mvn -Dtest=PetclinicTest --file petclinic-selenium/pom.xml -Dbrowser=chrome -Dheadless=true test
