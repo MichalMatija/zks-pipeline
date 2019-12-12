@@ -19,4 +19,3 @@ jobs:
         run: nohup java -jar petclinic/target/petclinic-2.2.2.BUILD-SNAPSHOT.jar &
       - name: Run the selenium tests
         run: mvn -Dtest=PetclinicTest --file petclinic-selenium/pom.xml -Dbrowser=chrome -Dheadless=true test
-© 2019 GitHub, Inc.
